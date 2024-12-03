@@ -5,33 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mi</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <img src="/person_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="Foto de perfil">
-        <h1>Jorge Leonardo Gamarra Ospino</h1>
-        <h2>Hoja de vida</h2>
+    <header class="header">
+        <img src="/person_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt="Foto de perfil" class="profile-img">
+        <h1 class="name">Jorge Leonardo Gamarra Ospino</h1>
+        <h2 class="title">Hoja de vida</h2>
     </header>
 
     <main>
-        <section>
+        <section class="intro-section">
             <h3>Introducción</h3>
-            <p>Bienvenidos a mi página personal. El propósito principal de este espacio es ofrecer una visión clara y
-                concisa de mi perfil profesional y mis intereses personales. Aquí encontrarás información detallada
-                sobre mi trayectoria, habilidades y logros en el campo de la programación. Además, compartiré mis
-                pasatiempos y actividades favoritas, así como enlaces a mis perfiles en redes sociales para que puedas
-                seguir mi trabajo y conectarte conmigo.</p>
-
-            <p>A través de esta página, quiero transmitir mi pasión por la tecnología y mi compromiso con el aprendizaje
-                continuo, así como proporcionar una manera fácil de contactarme para futuras colaboraciones o proyectos.
-                Espero que disfrutes navegando por mi página y que encuentres interesante y útil la información aquí
-                presentada.</p>
-
+            <p>Bienvenidos a mi página personal...</p>
         </section>
 
-        <section>
+        <section class="social-section">
             <h3>Redes sociales</h3>
             <ul>
                 <li><a href="https://es-la.facebook.com/">Facebook</a></li>
@@ -40,7 +31,7 @@
             </ul>
         </section>
 
-        <section>
+        <section class="hobbies-section">
             <h3>Pasatiempos</h3>
             <ul>
                 <li>Ver películas</li>
@@ -49,9 +40,9 @@
             </ul>
         </section>
 
-        <section>
+        <section class="schedule-section">
             <h3>Horario de la semana y tareas pendientes</h3>
-            <table border="1">
+            <table>
                 <thead>
                     <tr>
                         <th>Hora</th>
@@ -111,7 +102,7 @@
             </table>
         </section>
 
-        <section>
+        <section class="contact-section">
             <h3>Contacto</h3>
             <form action="">
                 <label for="name">Nombre:</label><br>
@@ -129,7 +120,9 @@
 
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+        <!-- Contenido del pie de página -->
+    </footer>
 
 </body>
 
